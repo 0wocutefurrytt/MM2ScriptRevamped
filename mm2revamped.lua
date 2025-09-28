@@ -342,5 +342,4 @@ module[11] = {
 	end}
 }
 
-getgenv().Modules[#getgenv().Modules] = module
-return module
+_G.Modules[11] = module
