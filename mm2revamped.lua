@@ -342,4 +342,5 @@ module[11] = {
 	end}
 }
 
-_G.Modules[#_G.Modules + 1] = module
+getgenv().Modules[#getgenv().Modules] = module
+return module
