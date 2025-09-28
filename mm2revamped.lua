@@ -39,7 +39,7 @@ local function findSheriff()
 	return nil
 end
 
-module["Name"] = "MM2 (Rescript)"
+module["Name"] = "MM2"
 
 workspace.ChildAdded:Connect(function(ch)
 	if ch.Name == "Normal" and playerESP then
